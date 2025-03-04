@@ -4,7 +4,7 @@
 
 ## Installation
 ### 1. Clone the repository:
-git clone
+`git clone`
 ### 2. Create a virtual environment:
 python3 -m venv venv
 ### 3. Activate the virtual environment:
@@ -30,19 +30,19 @@ python manage.py runserver
 #### content: A TextField representing the content of the post.
 #### created_at: A DateTimeField representing when the post was created.
 #### updated_at: A DateTimeField representing when the post was last updated.
-#### Views
+### Views
 #### The views for the blog handle the following actions:
 
 #### Post List (post_list): Displays a list of all blog posts.
 #### Create Post (post_create): Allows the user to create a new post.
 #### Edit Post (post_update): Allows the user to edit an existing post.
 #### Delete Post (post_delete): Allows the user to delete a post.
-#### Templates
+### Templates
 #### The templates are located in the blog/templates/blog directory.
 
 #### post_list.html: Displays the list of blog posts with options to edit or delete them.
 #### post_form.html: Displays the form for creating or editing a post.
-#### URLs
+### URLs
 #### The application has the following URL patterns:
 
 #### / (GET): Displays the list of posts.
