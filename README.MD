@@ -24,28 +24,28 @@
 
 ## Functionality
 ### Models
-### The application has a Post model that defines the following fields:
+#### The application has a Post model that defines the following fields:
 
-#### title: A CharField representing the title of the post.
-#### content: A TextField representing the content of the post.
-#### created_at: A DateTimeField representing when the post was created.
-#### updated_at: A DateTimeField representing when the post was last updated.
+##### title: A CharField representing the title of the post.
+##### content: A TextField representing the content of the post.
+##### created_at: A DateTimeField representing when the post was created.
+##### updated_at: A DateTimeField representing when the post was last updated.
 ### Views
-#### The views for the blog handle the following actions:
+##### The views for the blog handle the following actions:
 
-#### Post List (post_list): Displays a list of all blog posts.
-#### Create Post (post_create): Allows the user to create a new post.
-#### Edit Post (post_update): Allows the user to edit an existing post.
-#### Delete Post (post_delete): Allows the user to delete a post.
+##### Post List (post_list): Displays a list of all blog posts.
+##### Create Post (post_create): Allows the user to create a new post.
+##### Edit Post (post_update): Allows the user to edit an existing post.
+##### Delete Post (post_delete): Allows the user to delete a post.
 ### Templates
-#### The templates are located in the blog/templates/blog directory.
+##### The templates are located in the blog/templates/blog directory.
 
-#### post_list.html: Displays the list of blog posts with options to edit or delete them.
-#### post_form.html: Displays the form for creating or editing a post.
+##### post_list.html: Displays the list of blog posts with options to edit or delete them.
+##### post_form.html: Displays the form for creating or editing a post.
 ### URLs
-#### The application has the following URL patterns:
+##### The application has the following URL patterns:
 
-#### / (GET): Displays the list of posts.
-#### /post/new/ (GET, POST): Allows creating a new post.
-#### /post/<int:pk>/edit/ (GET, POST): Allows editing an existing post.
-#### /post/<int:pk>/delete/ (GET): Allows deleting a post.
+##### / (GET): Displays the list of posts.
+##### /post/new/ (GET, POST): Allows creating a new post.
+##### /post/<int:pk>/edit/ (GET, POST): Allows editing an existing post.
+##### /post/<int:pk>/delete/ (GET): Allows deleting a post.
