@@ -4,22 +4,22 @@
 
 ## Installation
 ### 1. Clone the repository:
-`git clone`
+```git clone```
 ### 2. Create a virtual environment:
-python3 -m venv venv
+```python3 -m venv venv```
 ### 3. Activate the virtual environment:
-On Windows
-venv\Scripts\activate
-On macOS/Linux
-source venv/bin/activate
+### On Windows
+```venv\Scripts\activate```
+### On macOS/Linux
+```source venv/bin/activate```
 ### 4. Install the required dependencies:
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 ### 5. Run migrations to set up the database:
-python manage.py migrate
+```python manage.py migrate```
 ### 6. Create a superuser to access the Django admin panel:
-python manage.py createsuperuser
+```python manage.py createsuperuser```
 ### 7. Run the server:
-python manage.py runserver
+```python manage.py runserver```
 ### 8. Access the application at http://127.0.0.1:8000/.
 
 ## Functionality
