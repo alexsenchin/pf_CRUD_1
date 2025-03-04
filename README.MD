@@ -2,35 +2,10 @@ Technical Documentation for Blog CRUD 1 Project
 Introduction
 This is a simple blog CRUD (Create, Read, Update, Delete) application built using Django. It allows users to create, view, edit, and delete blog posts. This application demonstrates the usage of Django's basic features such as models, views, forms, and templates.
 
-Project Structure
+#Project Structure
 The project is structured as follows:
 
-myproject/
-│
-├── blog/                     # Main application directory
-│   ├── migrations/           # Database migrations
-│   ├── __init__.py           # Marks the directory as a Python package
-│   ├── admin.py              # Django admin configuration
-│   ├── apps.py               # App configuration
-│   ├── models.py             # Models for the blog
-│   ├── views.py              # Views for handling requests
-│   ├── urls.py               # URL routing for the blog app
-│   ├── templates/            # HTML templates for views
-│   │   └── blog/
-│   │       ├── post_form.html  # Form to create and edit posts
-│   │       └── post_list.html  # List of all posts
-│   ├── __init__.py           # Marks the directory as a Python package
-│
-├── manage.py                 # Django management script
-├── myproject/                # Project settings
-│   ├── __init__.py           # Marks the directory as a Python package
-│   ├── settings.py           # Django project settings
-│   ├── urls.py               # Global URL routing
-│   ├── asgi.py               # ASGI application setup
-│   └── wsgi.py               # WSGI application setup
-├── venv/                     # Virtual environment for dependencies
-├── security.txt              # Security contact information for vulnerability reporting
-└── requirements.txt          # List of project dependencies
+myproject/ │ ├── blog/ # Main application directory │ ├── migrations/ # Database migrations │ ├── init.py # Marks the directory as a Python package │ ├── admin.py # Django admin configuration │ ├── apps.py # App configuration │ ├── models.py # Models for the blog │ ├── views.py # Views for handling requests │ ├── urls.py # URL routing for the blog app │ ├── templates/ # HTML templates for views │ │ └── blog/ │ │ ├── post_form.html # Form to create and edit posts │ │ └── post_list.html # List of all posts │ ├── init.py # Marks the directory as a Python package │ ├── manage.py # Django management script ├── myproject/ # Project settings │ ├── init.py # Marks the directory as a Python package │ ├── settings.py # Django project settings │ ├── urls.py # Global URL routing │ ├── asgi.py # ASGI application setup │ └── wsgi.py # WSGI application setup ├── venv/ # Virtual environment for dependencies ├── security.txt # Security contact information for vulnerability reporting └── requirements.txt # List of project dependencies
 
 Installation
 1. Clone the repository:
